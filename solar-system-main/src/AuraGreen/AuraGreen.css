@@ -1,12 +1,48 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Aura-Banner{
     height: 100vh;
     width: 215vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
    
 }
 .Aura-img{
     height: 330px;
+    margin-top: 300px;
+    margin-left: 37%;
 }
+.Banner-Text{
+   
+    width: 100%;
+}
+.Banner-head{
+  
+    margin-left:36%;
+    font-family: Urbanist;
+    margin-top:1.12%;
+    font-weight: 700;
+    font-style: Bold;
+    font-size:40px;
+    line-height: 100%;
+    color:rgba(0, 0, 0, 1)
+}
+.banner-span{
+   
+     margin-top: 1.12%;     
+     width:10.5%;
+     margin-left:37%;
+     width:330px;
+     height:48px;
+     opacity:1;
+     font-style:Regular;
+     font-size:25px;
+     font-weight: 400;
+     font-family: Urbanist;
+     line-height: 100%;
+     letter-spacing: 0%;
+     text-align: center;
+     color: rgba(0,98,60,1);
+}
+
+
+
+
