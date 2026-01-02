@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.window-box{
+    height:100vh;
+    width: 100vh;
+}
+.save-world-img{
+ height: 340px;
+ margin-top: 20%;
+ margin-left: 85%;
+
+}
+.text-box{
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 65.7%;
+    font-family: Urbanist;
+    font-weight: 700;
+    font-style:Bold;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0,0,0,1);
+    text-align: center;
+}
+.facebook-box{
+    width:352px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-left: 85%;
+    border-width: 1px;
+    opacity: 1;
+    border:1px solid rgba(207,204,204,1);
+    border-radius: 10px;
+}
+.facebook{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    height:20px;
+    width:196px;
+    
+
+}
+

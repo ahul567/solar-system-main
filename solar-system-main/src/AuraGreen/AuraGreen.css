@@ -7,7 +7,7 @@
 }
 .Aura-img{
     height: 330px;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: 37%;
 }
 .Banner-Text{
@@ -42,7 +42,50 @@
      text-align: center;
      color: rgba(0,98,60,1);
 }
+.getstart-box{
+ width:280px; 
+ height:50px;
+ margin-top:20%;
+ margin-left:39%;
+ border-radius:25px;
+ opacity:1;
+ border:0.5px solid;
+ border-image-source: linear-gradient(180deg, regba(255,255,255,0.08) 0%,rgba(255,255,255,0.5)100%);
+ box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.05),
+            -4px 34px 34px 0px rgba(0, 0, 0, 0.04),
+            -10px 76px 46px 0px rgba(0, 0, 0, 0.03),
+            -18px 135px 55px 0px rgba(0, 0, 0, 0.01),
+            -28px 211px 60px 0px rgba(0, 0, 0, 0);
 
 
+}
+.sub-box{
+   width:280px;
+   height:50px; 
+   border-radius:25px;
+   opacity: 1;
+   border-width:25px;
+   background:linear-gradient(137.47deg,#004A2C 11.08%, #1E7A46 32.28%, #52B56F 57.73%,#0E5734 95.9%);
+   border: 0.5px solid;
+   border-image-source:linear-gradient(180deg, rgba(255,255,255,0.08) 0%,rgba(255,255,255,0.5) 100%);
+   box-shadow: 9.25px 13.75px 2px 0px rgba(115,82,221,0.13);
+   backdrop-filter: blur(1.5px);
+   box-shadow: 0.75px 3px 7.7px 0px rgba(115,82,221,0.43) inset,
+              -1px -3.25px 9.07px 0px rgba(88,42,255,0.32) inset; 
+}
+.paragraph{
+    width:280px;
+    height:50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}   
 
 

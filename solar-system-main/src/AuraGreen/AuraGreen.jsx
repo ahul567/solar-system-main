@@ -1,6 +1,7 @@
 import React from 'react'
 import AuraGreen_img from '../assets/AuraGreen.svg';
 import AuraBanner from './AuraBanner.jsx';
+import Get_Started from './Get_Started.jsx';
 import './AuraGreen.css'
 const banner_database=[{
  head:"Welcome to EcoGen!",
@@ -16,7 +17,8 @@ export default function AuraGreen() {
                 <AuraBanner key={index} head={value.head} span={value.span}/>
               ))}
            
-        
+           <Get_Started/>
+           
     </div>
   )
 }
