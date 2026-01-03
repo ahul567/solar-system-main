@@ -11,7 +11,7 @@
 }
 .text-box{
     width: 90%;
-    margin-top: 4%;
+    margin-top: 1%;
     margin-left: 65.7%;
     font-family: Urbanist;
     font-weight: 700;
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6%;
+    margin-top: 4%;
     margin-left: 85%;
     border-width: 1px;
     opacity: 1;
@@ -46,4 +46,11 @@
     
 
 }
+.line{
+    width:160.01px;
+    height:0px;
+    margin-top: 10%;
+    margin-left: 85%;
+   border: 1px solid rgba(207, 204, 204, 1)
 
+}
