@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .window-box{
-    height:100vh;
+    height:200vh;
     width: 100vh;
 }
 .save-world-img{
@@ -43,14 +43,67 @@
     gap: 13px;
     height:20px;
     width:196px;
-    
+}
+.horizontal-line{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+    margin-left: 74%;
+    margin-top: 15%;
+}
+.or-text{
+    width:19px;
+    height:19px;
+    font-family: Urbanist;
+    font-weight: 600;
+    font-style:SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(152, 152, 152, 1);
 
 }
-.line{
-    width:160.01px;
-    height:0px;
-    margin-top: 10%;
-    margin-left: 85%;
-   border: 1px solid rgba(207, 204, 204, 1)
+.line1{
+  width: 160.01px; 
+  height: 0px;
+  border: 1px solid rgba(207, 204, 204, 1);
+}
+
+.sign-via-mail{
+    width:351px;
+    height:50px;
+    margin-left:85%;
+    margin-top: 18%;
+    opacity:1;
+    border-radius:25px;
+    border: 0.5px solid;
+    border-image-source: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.5) 100%);
+    box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.05),
+                 -4px 34px 34px 0px rgba(0,0,0,0.04),
+                 -10px 76px 46px 0px rgba(0,0,0,0.03),
+                 -18px 135px 55px 0px rgba(0, 0, 0, 0.01),
+                 -28px 211px 60px 0px rgba(0, 0, 0, 0);
+
+
+
+}
+.signin-box{
+width:351px;
+height:50px;
+
+border-width:0.5px;
+opacity:1;
+border-radius:25px;
+background: linear-gradient(137.47deg, #004A2C 11.08%, #1E7A46 32.28%, #52B56F 57.73%, #0E5734 95.9%);
+border-image-source:linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.5) 100%);
+backdrop-filter: blur(1.5px);
+
+box-shadow: 9.25px 13.75px 2px 0px rgba(115, 82, 221, 0.13),
+            0.75px 3px 7.7px 0px rgba(115, 82, 221, 0.43) inset,
+            -1px -3.25px 9.07px 0px rgba(88, 42, 255, 0.32) inset;
+
 
 }

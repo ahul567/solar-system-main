@@ -8,10 +8,16 @@ export default function Social_Media() {
       <img className="save-world-img"src={save_world} alt="" />
        <p className="text-box">let's you in</p>
         <Media_Item/>
-        <div className='horizontal-line'>
-           <div className="line"></div>
-           <p className='or-text'>or</p>
+        <div className="horizontal-line">
+          <div className="line1"></div>
+          <span className='or-text'>Or</span>
+         <div className="line1"></div>
         </div>
+          <div className='sign-via-mail'>
+            <div className="signin-box">
+              
+            </div>
+          </div>
     </div>
    
    
