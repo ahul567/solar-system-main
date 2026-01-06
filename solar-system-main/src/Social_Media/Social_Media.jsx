@@ -11,13 +11,14 @@ export default function Social_Media() {
         <div className="horizontal-line">
           <div className="line1"></div>
           <span className='or-text'>Or</span>
-         <div className="line1"></div>
+          <div className="line1"></div>
         </div>
           <div className='sign-via-mail'>
             <div className="signin-box">
-              
+              <p className='paragraph-text'>Sign in with Email</p>
             </div>
           </div>
+          <p className='account-purpose'>Don't have an account? <span className='signUp'>Sign Up</span></p>
     </div>
    
    
