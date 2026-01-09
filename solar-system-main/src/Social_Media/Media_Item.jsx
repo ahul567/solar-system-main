@@ -18,7 +18,7 @@ export default function Media_Item() {
        <div className='facebook-box'>
         <div className='facebook'>
            <img src={user.icon} alt="" />
-         <p classname="text-box">{user.text}</p>
+         <p className="triple-text-box">{user.text}</p>
         </div>
           
         </div>
