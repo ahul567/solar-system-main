@@ -10,3 +10,17 @@
   margin-top: 10%;
   margin-left: 45%; 
 }
+.mailbox{
+  width:351px;
+  height:51px;
+  margin-top:2%;
+  margin-left:40%;
+  opacity: 1;
+  border: 1px solid #7B7B7B4D;
+  border-radius: 10px;
+  background: #7B7B7B0D;
+
+}
+
+ 
+
