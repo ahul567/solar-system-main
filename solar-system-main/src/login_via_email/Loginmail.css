@@ -13,7 +13,7 @@
 .mailbox{
   width:351px;
   height:51px;
-  margin-top:2%;
+  margin-top:5%;
   margin-left:40%;
   opacity: 1;
   border: 1px solid #7B7B7B4D;
@@ -21,6 +21,45 @@
   background: #7B7B7B0D;
 
 }
+.icon-mail{
+  width: 20px;
+  height:20px;
+  color:#7B7B7B;
+  margin-top:-4px;;
+}
 
- 
+.input-mail{
+width: 112px;
+height:21px;
+font-family: Khula;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #7B7B7B;
 
+}
+.passwordbox{
+  width:353px;
+  height:51px;
+  margin-top:3%;
+  margin-left:40%; 
+  opacity: 1;
+  background: #7B7B7B0D;
+  border-radius: 10px;
+  border: 1px solid #1E7A46
+  
+}
+.sub-box-pass{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.input-pass{
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
