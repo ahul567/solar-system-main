@@ -47,6 +47,13 @@ export default function Loginmail() {
         </div>
        ))} 
       </div>
+      <div className="recovery-account">
+        <div className="checkbox-text">
+          <div className="checkbox"></div>
+          <span className="rem-me">Rember Me</span>
+          <span className="rec-pass">Forgot Password</span>
+        </div>
+      </div>
     </div>
 
   )

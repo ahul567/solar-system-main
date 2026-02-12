@@ -73,5 +73,40 @@ color: #7B7B7B;
  color: #7B7B7BB2;
 
 }
+.checkbox-text{
+  display: flex;
+
+}
+.checkbox{
+  Width:15px;
+  height:15px;
+  border: 1px solid #1E7A46;
+  border-radius: 3px;
+  
+}
+.rem-me{
+  width:82px;
+  height:26px;
+  opacity: 1;
+  font-family: Khula;
+  font-weight:400;
+  font-style:Regular;
+  font-size:16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color:#000000;
+
+}
+rec-pass{
+  width: 129px;
+  height: 21px;
+  font-family: Khula;
+  font-weight: 600;
+  font-style:SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1E7A46;
 
 
+}
