@@ -75,7 +75,7 @@ color: #7B7B7B;
 }
 .checkbox-text{
   display: flex;
-
+  gap:1%;
 }
 .checkbox{
   Width:15px;
@@ -97,10 +97,11 @@ color: #7B7B7B;
   color:#000000;
 
 }
-rec-pass{
+.rec-pass{
   width: 129px;
   height: 21px;
   font-family: Khula;
+  margin-left: 14%;
   font-weight: 600;
   font-style:SemiBold;
   font-size: 16px;
@@ -108,5 +109,8 @@ rec-pass{
   letter-spacing: 0%;
   color: #1E7A46;
 
-
+}
+.recovery-account{
+  margin-left: 42%;
+  margin-top:2%
 }

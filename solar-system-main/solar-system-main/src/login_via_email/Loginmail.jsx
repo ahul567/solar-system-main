@@ -51,7 +51,7 @@ export default function Loginmail() {
         <div className="checkbox-text">
           <div className="checkbox"></div>
           <span className="rem-me">Rember Me</span>
-          <span className="rec-pass">Forgot Password</span>
+          <p className="rec-pass">Forgot Password?</p>
         </div>
       </div>
     </div>
