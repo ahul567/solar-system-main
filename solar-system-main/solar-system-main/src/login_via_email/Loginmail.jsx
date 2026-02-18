@@ -54,6 +54,12 @@ export default function Loginmail() {
           <p className="rec-pass">Forgot Password?</p>
         </div>
       </div>
+      <div className="sign-in-box"><p className='textbox'>Sign in with Email</p></div>
+      <div className='divider'>
+       <div className="line1"></div>
+       <span className='social-media-ref'>Or Continue With</span>
+        <div className="line1"></div>
+     </div>
     </div>
 
   )

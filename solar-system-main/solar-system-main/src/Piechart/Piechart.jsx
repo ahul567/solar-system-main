@@ -61,7 +61,7 @@ export default function Piechart() {
         <Turbine/>
         </div> 
         <Rectangle/>
-         
+      
     </div>
   );
    
