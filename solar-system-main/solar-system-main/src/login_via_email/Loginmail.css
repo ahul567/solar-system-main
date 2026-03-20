@@ -13,6 +13,10 @@
   margin-top: 10%;
   margin-left: 45%; 
 }
+.recovery-account{
+  margin-left: 42%;
+  margin-top: 2%;
+}
 .mailbox{
   width:351px;
   height:51px;
@@ -88,9 +92,10 @@ color: #7B7B7B;
   
 }
 .rem-me{
-  width:82px;
+  width:104px;
   height:26px;
   opacity: 1;
+  margin-right: -28px;
   font-family: Khula;
   font-weight:400;
   font-style:Regular;
@@ -113,10 +118,7 @@ color: #7B7B7B;
   color: #1E7A46;
 
 }
-.recovery-account{
-  margin-left: 42%;
-  margin-top:2%
-}
+
 .sign-in-box{
   width: 351px;
   height:50px;
@@ -125,9 +127,9 @@ color: #7B7B7B;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(137.47deg,#004A2C 11.08%,#1E7A46,32.28%,#52B56F 57.73%,#0E5734 95.9%);
+  background: linear-gradient(137.47deg, #004A2C 11.08%, #1E7A46 32.28%, #52B56F 57.73%, #0E5734 95.9%);
+  border: 0.5px solid;  
   border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.5) 100%);
-  border: 0.5px solid;
   backdrop-filter: blur(1.5px);
   box-shadow: 9.25px 13.75px 2px 0px #7352DD21,
               0.75px 3px 7.7px 0px #7352DD6E inset,
@@ -179,5 +181,48 @@ letter-spacing: 0%;
 text-align: center;
 color: #989898;
 
+
+}
+.social-icons{
+  display: flex;
+  margin-left: 45%;
+  gap:7%;
+  margin-top: 8%;
+}
+.med_icon{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 57px;
+height: 43px;
+opacity: 1;
+border-width: 1px;
+border-radius: 10px;
+}
+.exist-acount{
+width: 223;
+height: 21;
+opacity: 1;
+margin-top: 5%;
+margin-left: 47%;
+font-family: Khula;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+color: #7B7B7B;
+
+}
+.signup-link{
+margin-left: 0.5%;
+font-family: Khula;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #1E7A46;
 
 }
