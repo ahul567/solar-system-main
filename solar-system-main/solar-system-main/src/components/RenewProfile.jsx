@@ -1,13 +1,18 @@
-import Circle from './Circle/circle'
+import Circle from './Circle/Circle'
 import rn_logo from '../assets/Renew_logo.svg'
 import user_profile from '../assets/ix_user-profile-filled.svg'
 import setting from '../assets/weui_setting-outlined.svg'
 import cylinder_graph_1 from '../assets/cylinder-graph_1.svg'
 import cylinder_graph_2 from '../assets/cylinder-graph_2.svg'
 import State_Overview from './Power_dataset/State_Overview'
+import { useState } from "react"
+import SidebarLayout from './SidebarLayout.jsx'
 const profile_setting = [user_profile,setting]
+ 
+
 function RenewProfile() {
   // Graph 1 CSS
+  const [isOpen, setIsOpen] = useState(false);
   const graph1Style = {
     width: '103.92px',
     height: '240.21px',
@@ -31,7 +36,7 @@ function RenewProfile() {
 
   return (
     <div style={{width:"200Vh",height:"200vh"}}>
-      {/* Header Section */}
+      <SidebarLayout/>
       <div style = {{
         width: 352,
         height: 63,
