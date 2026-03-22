@@ -1,68 +1,94 @@
 import React from 'react';
-import './piechart.css';
-import Turbine from './turbinename.jsx';
+import './Piechart.css';
 import piechartimg from '../assets/flat-color-icons_pie-chart.svg';
-import carbon_wind from '../assets/running_windmill.svg';
-import stopped_wind from '../assets/stop_Vector.svg';
-import Listing from "./ListingComponent/Listingcomp.jsx";
-import Rectangle from "./Rectangle.jsx";
-import Assetoperationbox from './Assetoperationbox.jsx';
+import arrowIcon from '../assets/Vector-arrow.svg';
+import runningWindmill from '../assets/running_windmill.svg';
+import stopVector from '../assets/stop_Vector.svg';
+
 export default function Piechart() {
-  const labels=['All','Running','Stopped','Alarm'];
-  
-  
   return (
-    
-    <div className="winbox">
-      <Assetoperationbox/>
-        
-      <div className="piechartbox" >
-       
-        <div className="chart-text-box">
-          <h2 className="chart-text">2 of 114 Assets are running</h2>
+    <div className="piechart-page">
+      {/* Asset Operations Header */}
+      <div className="asset-operations-box">
+        <div className="arrow-circle">
+          <img src={arrowIcon} alt="Back Arrow" className="arrow-icon" />
         </div>
-        <img className="pie-chart" style={{marginLeft:50}} src={piechartimg} />
+        <span className="operations-text">Asset Operations</span>
       </div>
-       
-      <div 
-            
-        style={{ 
-          display: "flex",
-          justifyContent: "center",
-          marginLeft: "800px",
-          marginTop: "-50px",
-          gap: "65px"
-          }}
-          >
-          {
-            labels.map((label, index)=>(
-              <Listing key={index} text={label} />
-          ))}  
-       </div>
-      
-      <div className="status-wrapper" style={{gap:120}}>
-        <div className="rec-box">
-          <img className="running-wind-mill" src={carbon_wind} alt="carbon-wind" />
-          <div className="Status-box">
-            <p className="status-typo">Running</p>
-            <p className="status-typo2">KN- R21</p>
+
+      <div className="piechart-container">
+        {/* Caption Text */}
+        <div className="caption-box">
+          <h2 className="caption-text">2 of 114 Assets are running</h2>
+        </div>
+
+        {/* Pie Chart Image */}
+        <div className="chart-box">
+          <img src={piechartimg} alt="Pie Chart" className="pie-chart-image" />
+        </div>
+      </div>
+
+      {/* Filter Buttons */}
+      <div className="filter-buttons">
+        <button className="filter-button">All</button>
+        <button className="filter-button">Running</button>
+        <button className="filter-button">Stopped</button>
+        <button className="filter-button">Alarms</button>
+      </div>
+
+      {/* Status Cards */}
+      <div className="status-cards">
+        {/* Running Status Card */}
+        <div className="status-card running">
+          <img src={runningWindmill} alt="Running" className="status-image" />
+          <div className="status-info">
+            <span className="status-text running-text">Running</span>
+            <span className="system-name">KN-R21</span>
           </div>
         </div>
 
-        <div className="rec-box2">
-          <img className="stopped-wind-mill" src={stopped_wind} alt="stopped-wind" />
-          <div className="Status-box2">
-            <p className="stopped-status-typo">Stopped</p>
-            <p className="stopped-status-typo2">SJ-517</p>
+        {/* Stopped Status Card */}
+        <div className="status-card stopped">
+          <img src={stopVector} alt="Stopped" className="status-image" />
+          <div className="status-info">
+            <span className="status-text stopped-text">Stopped</span>
+            <span className="system-name">SJ-517</span>
           </div>
         </div>
       </div>
-      <div style={{marginLeft:800, marginTop:-160}}>
-        <Turbine/>
-        </div> 
-        <Rectangle/>
-      
+
+      {/* System Buttons Grid */}
+      <div className="systems-grid">
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn yellow">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+
+        <button className="system-btn yellow">SJ-517</button>
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn red">SJ-517</button>
+
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn yellow">SJ-517</button>
+
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+        <button className="system-btn red">SJ-517</button>
+        <button className="system-btn green">SJ-517</button>
+      </div>
     </div>
   );
-   
 }

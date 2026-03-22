@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ============ RUNNING ASSETS PAGE ============ */
+.running-assets-page {
+  width: 100%;
+  min-height: 100vh;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* ============ RUNNING ASSET OPERATIONS BOX ============ */
+.running-asset-operations-box {
+  position: absolute;
+  top: 50px;
+  left: 610px;
+  width: 352px;
+  height: 63px;
+  border-radius: 50px;
+  background: #E8EBEEB2;
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+  box-shadow: -3px -3px 7px 0px #FFFFFF inset, 3px 3px 7px 0px #8896A394 inset;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 0 20px;
+  z-index: 100;
+}
+
+/* ============ RUNNING ARROW CIRCLE/ELLIPSE ============ */
+.running-arrow-circle {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.running-arrow-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.running-operations-text {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1E7A46;
+  white-space: nowrap;
+}
+
+/* ============ RUNNING CAPTION ============ */
+.running-caption-box {
+  position: absolute;
+  top: 140px;
+  left: 25px;
+  width: 300px;
+}
+
+.running-caption-text {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #000000;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============ RUNNING ASSETS LIST ============ */
+.running-assets-list {
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  width: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 50;
+}
+
+.running-asset-item {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #F5F5F5;
+}
+
+.running-asset-icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #E0E0E0;
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.running-asset-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.running-asset-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.running-asset-name {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1E7A46;
+}
+
+.running-asset-duration {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #757373;
+}
+
+.running-asset-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.running-asset-column {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.running-column-label {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: #757373;
+}
+
+.running-column-value {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #000000;
+}
+
+.running-asset-actions {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.running-comments-link,
+.running-add-task-link {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #1E7A46;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.running-comments-link:hover,
+.running-add-task-link:hover {
+  text-decoration: underline;
+}

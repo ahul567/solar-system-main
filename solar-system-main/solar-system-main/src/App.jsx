@@ -6,6 +6,7 @@ import Loginmail from './login_via_email/Loginmail.jsx';
 import Dashboard from "./components/Dashboard";
 import PortfolioPage from "./components/PortfolioPage";
 import RenewProfile from "./components/RenewProfile";
+import RunningAssetsOperation from "./components/Running-assets-operation";
 import {Routes,Route} from 'react-router-dom';
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Route path="/portfolio" element={<PortfolioPage/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
       <Route path="/asset-operation" element={<Piechart/>}/>
+      <Route path="/running-asset-operation" element={<RunningAssetsOperation/>}/>
       <Route path="/auragreen" element={<AuraGreen/>}/>
       <Route path="/social-media" element={<Social_Media/>}/>
       <Route path="/login-via-email" element={<Loginmail/>}/>
