@@ -1,7 +1,7 @@
 import React from 'react';
 import './Running-assets-operation.css';
 import arrowIcon from '../assets/Vector-arrow.svg';
-import runningWindmill from '../assets/running_windmill.svg';
+import windmillIcon from '../assets/windmills.svg';
 
 const assetsData = [
   { id: 1, name: 'GA97-560', running: 'Running for 6 hours', power: '0kw', wind: '0.0 m/s' },
@@ -17,7 +17,6 @@ const assetsData = [
 export default function RunningAssetsOperation() {
   return (
     <div className="running-assets-page">
-      {/* Running Asset Operations Header */}
       <div className="running-asset-operations-box">
         <div className="running-arrow-circle">
           <img src={arrowIcon} alt="Back Arrow" className="running-arrow-icon" />
@@ -25,21 +24,19 @@ export default function RunningAssetsOperation() {
         <span className="running-operations-text">Running Asset Operations</span>
       </div>
 
-      {/* Caption */}
       <div className="running-caption-box">
         <h2 className="running-caption-text">33 of 33 Assets are running</h2>
       </div>
 
-      {/* Assets List */}
       <div className="running-assets-list">
         {assetsData.map((asset) => (
           <div key={asset.id} className="running-asset-item">
             <div className="running-asset-icon-circle">
-              <img src={runningWindmill} alt="Windmill" className="running-asset-icon" />
+              <img src={windmillIcon} alt="Windmill" className="running-asset-icon" />
             </div>
             <div className="running-asset-details">
-              <div className="running-asset-name">{asset.name}</div>
-              <div className="running-asset-duration">{asset.running}</div>
+              <span className="running-asset-name">{asset.name}</span>
+              <span className="running-asset-duration">{asset.running}</span>
             </div>
             <div className="running-asset-row">
               <div className="running-asset-column">

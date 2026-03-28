@@ -28,6 +28,7 @@
   gap: 15px;
   padding: 0 20px;
   z-index: 100;
+
 }
 
 /* ============ RUNNING ARROW CIRCLE/ELLIPSE ============ */
@@ -61,8 +62,8 @@
 .running-caption-box {
   position: absolute;
   top: 140px;
-  left: 25px;
-  width: 300px;
+  left: 602px;
+  width: 350px;
 }
 
 .running-caption-text {
@@ -80,8 +81,8 @@
 /* ============ RUNNING ASSETS LIST ============ */
 .running-assets-list {
   position: absolute;
-  top: 200px;
-  left: 25px;
+  top: 195px;
+  left: 581px;
   width: calc(100% - 50px);
   display: flex;
   flex-direction: column;
@@ -96,25 +97,28 @@
   gap: 15px;
   padding: 12px;
   border-radius: 10px;
-  background: #F5F5F5;
+ 
 }
 
 .running-asset-icon-circle {
   width: 50px;
   height: 50px;
-  border-radius: 50px;
-  background: #E0E0E0;
+  border-radius: 50%;
+  background: #E8EBEEB2;
   border: 1px solid;
   border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  box-shadow: -3px -3px 7px 0px #FFFFFF inset,
+              3px 3px 7px 0px #8896A394 inset;
+
 }
 
 .running-asset-icon {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -127,17 +131,23 @@
 }
 
 .running-asset-name {
+  width: 74px;
+  height: 19px;
   font-family: 'Urbanist', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
   color: #1E7A46;
+  background: transparent;
 }
 
 .running-asset-duration {
   font-family: 'Urbanist', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
   color: #757373;
+  background: transparent;
 }
 
 .running-asset-row {
@@ -156,15 +166,15 @@
 .running-column-label {
   font-family: 'Urbanist', sans-serif;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   color: #757373;
 }
 
 .running-column-value {
   font-family: 'Urbanist', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
-  color: #000000;
+  color: #757373;
 }
 
 .running-asset-actions {
@@ -175,9 +185,12 @@
 
 .running-comments-link,
 .running-add-task-link {
+  width: 64px;
+  height: 16px;
   font-family: 'Urbanist', sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 100%;
   color: #1E7A46;
   cursor: pointer;
   text-decoration: none;

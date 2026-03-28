@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.site-map-pill{
+width: 352px;
+height: 63px;
+opacity: 1;
+margin-bottom: 271px;
+margin-left: 625px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+border-width: 1px;
+background: #E8EBEEB2;
+border: 1px solid;
+border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+box-shadow: -3px -3px 7px 0px #FFFFFF inset,
+              3px 3px 7px 0px #8896A394 inset;
+gap: 3%;
+
+}
+.site-map-arrow-circle{
+width: 43px;
+height: 43px;
+border-radius: 50%;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 81px;
+margin-left: -23px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.site-map-title{
+width: 236px;
+height: 24px;
+opacity: 1;
+top: 91px;
+left: 100px;
+font-family: Urbanist;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #1E7A46;
+
+}
+.site-map-visual{
+  margin-top: 3%;
+}
+.site-content{
+width: 129px;
+height: 24px;
+opacity: 1;
+top: 152px;
+left: 25px;
+font-family: Urbanist;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+
+}
+.site-overview-card{
+width: 202px;
+height: 65px;
+opacity: 1;
+margin-top: 20px;
+left: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background: #1E7A4603;
+backdrop-filter: blur(100px);
+gap: 7%;
+box-shadow: 0px 1px 40px 0px #1E7A4633 inset,
+           0px 4px 18px 0px #1E7A464D inset,
+          0px 98px 100px -48px #1E7A4680 inset,
+          0px -82px 68px -64px #1E7A464D inset,
+          0px 7px 11px -4px #1E7A46 inset,
+          0px 39px 56px -36px #1E7A4680 inset,
+          0px 4px 4px 0px #00000080;
+
+}
+.overview-label{
+width: 76px;
+height: 12px;
+opacity: 1;
+top: 206px;
+left: 41px;
+font-family: Urbanist;
+font-weight: 400;
+font-style: Regular;
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #757373;
+
+}
+.overview-value-1{
+width: 67px;
+height: 19px;
+opacity: 1;
+top: 223px;
+left: 41px;
+font-family: Urbanist;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+
+}
+.overview-value-2{
+width: 33px;
+height: 16px;
+opacity: 1;
+top: 222px;
+left: 144px;
+width: 33;
+height: 16;
+opacity: 1;
+top: 222px;
+left: 144px;
+font-family: Urbanist;
+font-weight: 500;
+font-style: Medium;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+.status-chips-1{
+width: 109px;
+height: 30px;
+opacity: 1;
+top: 566px;
+left: 25px;
+border-radius: 50px;
+justify-content: center;
+align-items: center;
+border-width: 1px;
+border: 1px solid;
+border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+box-shadow: -3px -3px 7px 0px #FFFFFF inset,
+              3px 3px 7px 0px #8896A394 inset;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.operational{
+width: 79px;
+height: 18px;
+opacity: 1;
+top: 572px;
+left: 40px;
+font-family: Urbanist;
+font-weight: 500;
+font-style: Medium;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #1E7A46;
+
+}
+.status-chips-2{
+width: 85px;
+height: 30px;
+opacity: 1;
+top: 565px;
+left: 158px;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+border-width: 1px;
+border: 1px solid;
+border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+box-shadow: -3px -3px 7px 0px #FFFFFF inset,
+             3px 3px 7px 0px #8896A394 inset;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.warning{
+ width: 55px;
+height: 18px;
+opacity: 1;
+top: 571px;
+left: 173px;
+font-family: Urbanist;
+font-weight: 500;
+font-style: Medium;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #1E7A46;
+
+
+}
+.site-map{
+  display: flex;
+  gap:3%;
+  margin-top: 1%;
+}
+.status-chips-3{
+width: 110px;
+height: 30px;
+opacity: 1;
+top: 565px;
+left: 267px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+border-width: 1px;
+border: 1px solid;
+border-image-source: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+box-shadow: -3px -3px 7px 0px #FFFFFF inset,
+              3px 3px 7px 0px #8896A394 inset;
+
+}
+.not-working{
+width: 80px;
+height: 18px;
+opacity: 1;
+top: 571px;
+left: 282px;
+font-family: Urbanist;
+font-weight: 500;
+font-style: Medium;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #1E7A46;
+
+}
+.global-asset-content{
+width: 235px;
+height: 24px;
+opacity: 1;
+top: 521px;
+left: 25px;
+font-family: Urbanist;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+
+}
+.asset-list {
+  margin-top: 16px;
+  border-radius: 16px;
+  border: 1px solid #E5E8EB;
+  background: #FBFCFD;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.asset-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px;
+  background: #FFFFFF;
+  box-shadow: inset 0 0 0 0 #000;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.asset-row:hover {
+  transform: translateY(-1px);
+  box-shadow: 0px 8px 16px rgba(30, 122, 70, 0.18);
+}
+.asset-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.asset-status-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #1E7A46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #FFFFFF;
+}
+.asset-status-circle img {
+  width: 16px;
+  height: 16px;
+}
+.asset-name {
+  display: block;
+  font-family: Urbanist;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1A1A1A;
+  line-height: 1.2;
+}
+.asset-units {
+  display: block;
+  font-family: Urbanist;
+  font-weight: 500;
+  font-size: 12px;
+  color: #586170;
+  margin-top: 2px;
+}
+.asset-percent {
+  font-family: Urbanist;
+  font-weight: 700;
+  font-size: 16px;
+}
+.asset-row .asset-percent[style] {
+  opacity: 1;
+  font-weight: 800;
+}
