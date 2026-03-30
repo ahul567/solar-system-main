@@ -3,6 +3,7 @@ import Piechart from './Piechart/Piechart.jsx';
 import AuraGreen from './AuraGreen/AuraGreen.jsx';
 import Social_Media from './Social_Media/Social_Media.jsx';
 import Loginmail from './login_via_email/Loginmail.jsx';
+import LoginWithEmail from './login_via_email/login_with_email.jsx';
 import Dashboard from "./components/Dashboard";
 import PortfolioPage from "./components/PortfolioPage";
 import RenewProfile from "./components/RenewProfile";
@@ -22,6 +23,7 @@ export default function App() {
       <Route path="/auragreen" element={<AuraGreen/>}/>
       <Route path="/social-media" element={<Social_Media/>}/>
       <Route path="/login-via-email" element={<Loginmail/>}/>
+      <Route path="/login-with-email" element={<LoginWithEmail/>}/>
       <Route path="/RenewProfile" element={<RenewProfile/>}/>
       <Route path="/alarm-log" element={<AlarmLog/>}/>
     </Routes>

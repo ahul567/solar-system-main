@@ -1,5 +1,6 @@
 import React from 'react';
 import './Piechart.css';
+import FooterIcon from '../footer_icon';
 import piechartimg from '../assets/flat-color-icons_pie-chart.svg';
 import arrowIcon from '../assets/Vector-arrow.svg';
 import runningWindmill from '../assets/running_windmill.svg';
@@ -89,6 +90,8 @@ export default function Piechart() {
         <button className="system-btn red">SJ-517</button>
         <button className="system-btn green">SJ-517</button>
       </div>
+      
+      <FooterIcon />
     </div>
   );
 }

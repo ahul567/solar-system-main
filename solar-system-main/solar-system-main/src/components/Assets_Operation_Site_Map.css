@@ -36,8 +36,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 width: 236px;
 height: 24px;
 opacity: 1;
-top: 91px;
-left: 100px;
+
 font-family: Urbanist;
 font-weight: 500;
 font-style: Medium;
@@ -54,8 +53,8 @@ color: #1E7A46;
 width: 129px;
 height: 24px;
 opacity: 1;
-top: 152px;
-left: 25px;
+margin-top: -231px;
+margin-left: 609px;
 font-family: Urbanist;
 font-weight: 700;
 font-style: Bold;
@@ -70,7 +69,7 @@ width: 202px;
 height: 65px;
 opacity: 1;
 margin-top: 20px;
-left: 25px;
+margin-left: 609px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -204,10 +203,14 @@ color: #1E7A46;
 
 
 }
+.site-map-visual{
+  margin-left: 609px;
+}
 .site-map{
   display: flex;
   gap:3%;
-  margin-top: 1%;
+  margin-top: 2%;
+  margin-left: 609px;
 }
 .status-chips-3{
 width: 110px;
@@ -245,8 +248,8 @@ color: #1E7A46;
 width: 235px;
 height: 24px;
 opacity: 1;
-top: 521px;
-left: 25px;
+margin-top: 90px;
+margin-left: 609px;
 font-family: Urbanist;
 font-weight: 700;
 font-style: Bold;
@@ -257,7 +260,9 @@ color: #000000;
 
 }
 .asset-list {
+  width: 331px;
   margin-top: 16px;
+  margin-left: 609px;
   border-radius: 16px;
   border: 1px solid #E5E8EB;
   background: #FBFCFD;

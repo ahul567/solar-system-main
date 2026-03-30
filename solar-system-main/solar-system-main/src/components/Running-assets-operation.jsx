@@ -1,5 +1,6 @@
 import React from 'react';
 import './Running-assets-operation.css';
+import FooterIcon from '../footer_icon';
 import arrowIcon from '../assets/Vector-arrow.svg';
 import windmillIcon from '../assets/windmills.svg';
 
@@ -55,6 +56,7 @@ export default function RunningAssetsOperation() {
           </div>
         ))}
       </div>
+      <FooterIcon />
     </div>
   );
 }

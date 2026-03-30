@@ -1,5 +1,6 @@
 import React from 'react';
 import './Assets_Operation_Site_Map.css';
+import FooterIcon from '../footer_icon';
 import arrowIcon from '../assets/Vector-arrow.svg';
 import windmillIcon from '../assets/windmills.svg';
 import worldMap from './Power_dataset/Assets/grommet-icons_map.svg';
@@ -68,6 +69,7 @@ export default function AssetsOperationSiteMap() {
           ))}
         </div>
       </div>
+      <FooterIcon />
     </div>
   );
 }

@@ -1,0 +1,211 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ width: 200vh;
+  padding-left: 100px;
+}
+
+.signup-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Logo Section */
+.logo-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aura-green-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Form Styles */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 2px solid #e8e8e8;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.input-field:focus-within {
+  border-color: #2d7e4a;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(45, 126, 74, 0.1);
+}
+
+.field-icon {
+  width: 20px;
+  height: 20px;
+  color: #999;
+  flex-shrink: 0;
+}
+
+.form-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-input::placeholder {
+  color: #bbb;
+}
+
+.toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+  filter: grayscale(60%);
+  transition: filter 0.2s ease;
+}
+
+.toggle-password:hover .toggle-icon {
+  filter: grayscale(0%);
+}
+
+/* Sign Up Button */
+.signup-btn {
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #2d7e4a 0%, #1a5a3a 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+  box-shadow: 0 4px 12px rgba(45, 126, 74, 0.3);
+}
+
+.signup-btn:hover {
+  background: linear-gradient(135deg, #1a5a3a 0%, #0f3f2a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(45, 126, 74, 0.4);
+}
+
+.signup-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(45, 126, 74, 0.3);
+}
+
+/* Login Link Section */
+.login-link-section {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.link-text {
+  color: #777;
+}
+
+.signup-link {
+  color: #2d7e4a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  color: #1a5a3a;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .signup-card {
+    padding: 30px 20px;
+    border-radius: 16px;
+  }
+
+  .aura-green-logo {
+    height: 80px;
+  }
+
+  .signup-form {
+    gap: 14px;
+  }
+
+  .input-field {
+    padding: 12px 14px;
+  }
+
+  .signup-btn {
+width: 351px;
+height: 50px;
+opacity: 1;
+top: 687px;
+left: 31.5px;
+border-width: 0.5px;
+border-radius: 25px;
+background: linear-gradient(137.47deg, #004A2C 11.08%, #1E7A46 32.28%, #52B56F 57.73%, #0E5734 95.9%);
+border: 0.5px solid;
+
+border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.5) 100%);
+
+
+box-shadow: 9.25px 13.75px 2px 0px #7352DD21;
+
+backdrop-filter: blur(1.5px);
+
+box-shadow: 0.75px 3px 7.7px 0px #7352DD6E inset,
+            -1px -3.25px 9.07px 0px #582AFF52 inset;
+
+
+padding: 12px 20px;
+font-size: 15px;
+  }
+}

@@ -7,6 +7,7 @@ import cylinder_graph_2 from '../assets/cylinder-graph_2.svg'
 import State_Overview from './Power_dataset/State_Overview'
 import { useState } from "react"
 import SidebarLayout from './SidebarLayout.jsx'
+import FooterIcon from '../footer_icon';
 const profile_setting = [user_profile,setting]
  
 
@@ -395,6 +396,7 @@ marginLeft:"3%"
             color: "#7B7B7B"
 
         }}>More State</p>
+      <FooterIcon />
     </div>
   
   )

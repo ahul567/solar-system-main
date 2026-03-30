@@ -1,5 +1,6 @@
 import React from 'react';
 import './AlarmLog.css';
+import FooterIcon from '../footer_icon';
 import arrowIcon from '../assets/Vector-arrow.svg';
 import pieIcon from '../assets/flat-color-icons_pie-chart-1.svg';
 
@@ -55,6 +56,7 @@ export default function AlarmLog() {
           </div>
         </div>
       </div>
+      <FooterIcon />
     </div>
   );
 }
